@@ -1,5 +1,5 @@
-const indexController = {}
+const notesController = {}
 
 
 
-module.exports = indexController
+module.exports = notesController
