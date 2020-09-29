@@ -37,7 +37,7 @@ usersController.signUp = async (req,res) => {
     }
     
     if (errs.length > 0) {
-     
+        
     }
 
     const userEmail = User.findOne({email})
