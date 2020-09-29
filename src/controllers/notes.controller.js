@@ -7,8 +7,7 @@ notesController.createNote = async (req,res) => {
 
     const errors = []
     if (!title) errors.push({ value: 'Add title to Note'}) 
-    if (!description) errors.push({ value: 'Add description to Note'}) 
-    
+    if (!description) errors.push({ value: 'Add description to Note'})     
     if (errors.length > 0) {
         res.json( { success: false , msg: errors} )
     }
